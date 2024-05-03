@@ -1,0 +1,67 @@
+[
+    {
+        "salary": 100000,
+        "name": "Yernasip Duisbay"
+    },
+    {
+        "id": 1,
+        "Amount": -300,
+        "Date": "30.04.24",
+        "Details": "The First"
+    },
+    {
+        "id": 2,
+        "Amount": 2636,
+        "Date": "29.04.24",
+        "Details": "Нұрəли I."
+    },
+    
+    {
+        "id": 3,
+        "Amount": 2636,
+        "Date": "29.04.24",
+        "Details": "Ербол C."
+    },
+    {
+        "id": 4,
+        "Amount": -9707,
+        "Date": "29.04.24",
+        "Details": "Zheka Restoran Suleymanova"
+    },
+    {
+        "id": 9,
+        "Amount": -100,
+        "Date": "29.04.24",
+        "Details": "Zheka Restoran Suleymanova"
+    },
+    {
+        "id": 5,
+        "Amount": -3500,
+        "Date": "29.04.24",
+        "Details": "Азамат Ə."
+    },
+    {
+        "id": 6,
+        "Amount": -500,
+        "Date": "29.04.24",
+        "Details": "Жомарт K."
+    },
+    {
+        "id": 7,
+        "Amount": 2636,
+        "Date": "29.04.24",
+        "Details": "Ербол C."
+    },
+    {
+        "id": 8,
+        "Amount": -100,
+        "Date": "29.04.24",
+        "Details": "Canteen"
+    },
+    {
+        "id": 9,
+        "Amount": -14600,
+        "Date": "30.04.24",
+        "Details": "Credit"
+    }
+]

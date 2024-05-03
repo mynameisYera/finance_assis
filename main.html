@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction List App</title>
+</head>
+<body>
+    <style>
+        button{
+            width: 200px;
+            height: 50px;
+            border-radius: 20px;
+            border: 1px solid black;
+            transition: .7s;
+        }
+        button:hover{
+            background-color: black;
+            color: aliceblue;
+        }
+        .container{
+            border: 1px solid black;
+            padding: 10px 20px;
+        }
+        #see{
+            display: block;
+        }
+        li{
+            list-style: none;
+        }
+        .numeration{
+            display: flex;
+            width: 1000px;
+            justify-content: space-between;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        #taxcome{
+            margin: 10px 0px;
+            background-color: orange;
+            display: none;
+        }
+        
+    </style>
+    <div class="container">
+        <h1>Transaction List App</h1>
+        <button id="see">See all my transactions</button>
+        <ul id="transaction-list" class="transaction-list"></ul>
+        <button id="taxcome" class="tax">My salary with taxes!!</button>
+        <a href="/statistic/statis.html"><button id="non">My ideal spending soney sistem</button></a>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

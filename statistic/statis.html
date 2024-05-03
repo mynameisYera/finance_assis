@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistic</title>
+</head>
+<body>
+    <style>
+        button{
+            width: 200px;
+            height: 50px;
+            border-radius: 20px;
+            border: 1px solid black;
+            transition: .7s;
+        }
+        button:hover{
+            background-color: black;
+            color: aliceblue;
+        }
+        #see{
+            display: block;
+        }
+        li{
+            list-style: none;
+        }
+        .numeration{
+            display: flex;
+            width: 1000px;
+            justify-content: space-between;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .canv{
+            width: 100%;
+            display: none;
+        }
+        
+    </style>
+    <div class="container">
+        <h1>My ideal spending money system</h1>
+        <button id="see">Statistic</button>
+        <ul id="transaction-list" class="transaction-list"></ul>
+        <div id="canv" class="canv">
+            <canvas id="myChart"></canvas>
+        </div>
+        <a href="/main.html"><button>My transactions in month</button></a>
+    </div>
+    
+
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+
+    <script src="statis.js"></script>
+</body>
+</html>
